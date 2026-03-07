@@ -5,7 +5,7 @@ import About from "./Components/About";
 import Home from "./Components/Home"; 
 import Counselling from "./Components/Counselling";
 import Login from "./Components/Login";
-import Register from "./Register";
+import Register from "./Components/Register";
 function App() {
   return (
     <BrowserRouter>
