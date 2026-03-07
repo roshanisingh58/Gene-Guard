@@ -103,6 +103,7 @@ const translations = {
     footer_tagline: 'Empowering genetic awareness through accessible education, advanced AI assessment, and personalized insights.',
     footer_copyright: '© 2026 GeneGuard. All rights reserved.',
   },
+
   hin: {
     nav_counselling: 'परामर्श',
     hero_title: 'आपकी यात्रा समझने की ओर',
@@ -183,23 +184,225 @@ const translations = {
     footer_services: 'सेवाएं',
     footer_company: 'कंपनी',
     footer_legal: 'कानूनी',
+    footer_learn_genetics: 'आनुवंशिकी सीखें',
+    footer_genetic_disorders: 'आनुवंशिक विकार',
+    footer_genetic_counseling: 'आनुवंशिक परामर्श',
+    footer_ai_assessment: 'AI मूल्यांकन',
+    footer_dna_testing: 'डीएनए परीक्षण',
+    footer_reports_insights: 'रिपोर्ट और अंतर्दृष्टि',
+    footer_consultations: 'परामर्श',
+    footer_research: 'अनुसंधान',
+    footer_about_us: 'हमारे बारे में',
+    footer_our_team: 'हमारी टीम',
+    footer_careers: 'करियर',
+    footer_contact: 'संपर्क',
+    footer_privacy_policy: 'गोपनीयता नीति',
+    footer_terms_of_service: 'सेवा की शर्तें',
+    footer_hipaa_compliance: 'HIPAA अनुपालन',
+    footer_cookie_policy: 'कुकी नीति',
     footer_tagline: 'सुलभ शिक्षा, उन्नत AI मूल्यांकन और व्यक्तिगत जानकारी के माध्यम से आनुवंशिक जागरूकता को सशक्त बनाना।',
     footer_copyright: '© 2026 GeneGuard। सर्वाधिकार सुरक्षित।',
   },
+
+  // ── मराठी (Marathi) ──────────────────────────────────────────────────────────
   mar: {
+    nav_counselling: 'समुपदेशन',
+    hero_title: 'समजून घेण्याच्या दिशेने तुमचा प्रवास',
+    hero_title_accent: 'अनुवांशिक आरोग्य',
+    hero_description: 'तज्ञ मार्गदर्शन, सहानुभूतीपूर्ण काळजी आणि तुमच्या अनुवांशिक आरोग्य प्रश्नांची स्पष्ट उत्तरे. आम्ही तुमच्या प्रत्येक पावलावर तुमच्यासोबत आहोत.',
+    btn_book_session: 'सत्र बुक करा',
+    btn_learn_more: 'अधिक जाणून घ्या',
+    section_when_counseling: 'तुम्ही अनुवांशिक समुपदेशन कधी विचारात घ्यावे?',
+    section_when_subtitle: 'अनुवांशिक समुपदेशन कधी घ्यायचे हे समजून घेतल्यास तुम्हाला तुमच्या आरोग्याबाबत माहितीपूर्ण निर्णय घेण्यास मदत होते',
+    scenario_family_history: 'कौटुंबिक इतिहास',
+    scenario_family_question: 'तुमच्या कुटुंबात अनुवांशिक स्थिती आढळतात का?',
+    scenario_family_description: 'जर तुमच्या नातेवाईकांना कर्करोग, हृदयरोग किंवा दुर्मिळ अनुवांशिक विकार असतील, तर समुपदेशन तुमच्या जोखमीचे मूल्यांकन करण्यास मदत करू शकते.',
+    scenario_family_learn: 'अनुवांशिक समुपदेशक कौटुंबिक नमुन्यांचे विश्लेषण करून संभाव्य आनुवंशिक स्थिती ओळखतात आणि योग्य चाचण्या सुचवतात.',
+    scenario_pregnancy: 'गर्भधारणेचे नियोजन',
+    scenario_pregnancy_question: 'तुम्ही गर्भधारणेचे नियोजन करत आहात किंवा सध्या गर्भवती आहात का?',
+    scenario_pregnancy_description: 'अनुवांशिक समुपदेशन मुलाला स्थिती हस्तांतरित होण्याचा धोका समजण्यास आणि प्रसवपूर्व चाचणी निर्णयांचे मार्गदर्शन करण्यास मदत करते.',
+    scenario_pregnancy_learn: 'समुपदेशक वाहक स्क्रीनिंग, प्रसवपूर्व निदान पर्यायांवर चर्चा करतात आणि गर्भधारणेदरम्यान चाचणी परिणाम समजण्यास मदत करतात.',
+    scenario_personal: 'वैयक्तिक निदान',
+    scenario_personal_question: 'तुम्हाला अनुवांशिक स्थितीचे निदान झाले आहे का?',
+    scenario_personal_description: 'तुमचे निदान, उपचार पर्याय आणि कुटुंबातील सदस्यांसाठी परिणाम समजून घेणे महत्त्वाचे आहे.',
+    scenario_personal_learn: 'अनुवांशिक समुपदेशक तुमची स्थिती स्पष्ट करतात, उपलब्ध उपचार सांगतात आणि नातेवाईकांसाठी अनुवांशिक चाचणीचे समन्वय करण्यास मदत करतात.',
+    scenario_symptoms: 'अस्पष्ट लक्षणे',
+    scenario_symptoms_question: 'तुम्हाला अस्पष्ट वैद्यकीय लक्षणे आहेत का?',
+    scenario_symptoms_description: 'स्पष्ट कारण नसलेल्या सततच्या लक्षणांचा अनुवांशिक आधार असू शकतो जो समुपदेशन ओळखण्यास मदत करू शकते.',
+    scenario_symptoms_learn: 'समुपदेशक वैद्यकीय इतिहासाचे पुनरावलोकन करतात आणि जटिल किंवा असामान्य लक्षणे स्पष्ट करू शकणाऱ्या अनुवांशिक चाचण्या सुचवतात.',
+    btn_book_consultation: 'सल्लामसलत बुक करा',
+    section_booking_title: 'तुमचे व्हर्च्युअल समुपदेशन सत्र बुक करा',
+    section_booking_subtitle: 'तुमच्या घरच्या आरामात तज्ञ अनुवांशिक समुपदेशकांशी संपर्क साधा',
+    step_concern: 'चिंता',
+    step_counselor: 'समुपदेशक',
+    step_schedule: 'वेळापत्रक',
+    step_confirm: 'पुष्टी करा',
+    booking_step1_title: 'तुम्ही अनुवांशिक समुपदेशनासाठी का आलात?',
+    booking_step1_subtitle: 'तुमच्या परिस्थितीचे सर्वोत्तम वर्णन करणारी चिंता निवडा',
+    concern_family_history: 'कौटुंबिक इतिहासाच्या चिंता',
+    concern_pregnancy: 'गर्भधारणेचे नियोजन',
+    concern_diagnosis: 'विद्यमान निदान',
+    concern_symptoms: 'अस्पष्ट लक्षणे',
+    concern_cancer_risk: 'कर्करोग जोखीम मूल्यांकन',
+    concern_other: 'इतर',
+    booking_step2_title: 'तुमचा समुपदेशक निवडा',
+    booking_step2_subtitle: 'त्यांच्या तज्ञतेनुसार आणि उपलब्धतेनुसार समुपदेशक निवडा',
+    counselor_1_name: 'डॉ. सारा मिशेल',
+    counselor_1_specialty: 'कर्करोग अनुवंशशास्त्र आणि आनुवंशिक सिंड्रोम',
+    counselor_2_name: 'डॉ. जेम्स चेन',
+    counselor_2_specialty: 'प्रसवपूर्व आणि बालरोग अनुवंशशास्त्र',
+    counselor_3_name: 'डॉ. एमिली रॉड्रिग्ज',
+    counselor_3_specialty: 'हृदय व रक्तवाहिन्यासंबंधी आणि चयापचय अनुवंशशास्त्र',
+    booking_step3_title: 'तारीख आणि वेळ निवडा',
+    booking_step3_subtitle: 'तुमच्या समुपदेशन सत्रासाठी सोयीस्कर वेळ निवडा',
+    label_select_date: 'तारीख निवडा',
+    label_select_time: 'वेळ निवडा',
+    booking_step4_title: 'तुमची भेट तपासा',
+    summary_concern: 'चिंता',
+    summary_counselor: 'समुपदेशक',
+    summary_date: 'तारीख',
+    summary_time: 'वेळ',
+    btn_confirm: 'भेट निश्चित करा',
+    confirmation_note: 'तुम्हाला बैठकीचे तपशील आणि तयारीच्या मार्गदर्शक सूचनांसह पुष्टी ईमेल मिळेल',
+    btn_back: 'मागे',
+    btn_continue: 'पुढे सुरू ठेवा',
+    prep_title: 'तुमच्या सत्राची तयारी कशी करावी',
+    prep_1: 'तुमचा वैद्यकीय इतिहास आणि नोंदी गोळा करा',
+    prep_2: 'कौटुंबिक आरोग्य इतिहास नोंदवा (किमान ३ पिढ्या)',
+    prep_3: 'सध्याच्या औषधे आणि पूरकांची यादी करा',
+    prep_4: 'तुम्हाला विचारायचे प्रश्न तयार करा',
+    prep_5: 'व्हर्च्युअल सत्रासाठी स्थिर इंटरनेट कनेक्शन सुनिश्चित करा',
+    faq_title: 'वारंवार विचारले जाणारे प्रश्न',
+    faq_1_question: 'मी माझ्या अनुवांशिक समुपदेशन भेटीत काय आणावे?',
+    faq_1_answer: 'तुमचे वैद्यकीय रेकॉर्ड, कौटुंबिक आरोग्य इतिहास (वय आणि स्थितींसह), मागील अनुवांशिक चाचणी परिणाम आणि औषधांची यादी आणा.',
+    faq_2_question: 'अनुवांशिक समुपदेशन सत्र किती वेळ घेते?',
+    faq_2_answer: 'प्रारंभिक सत्रे सामान्यतः ६०-९० मिनिटे असतात. फॉलो-अप भेटी साधारणपणे ३०-४५ मिनिटे असतात.',
+    faq_3_question: 'माझा विमा अनुवांशिक समुपदेशन कव्हर करेल का?',
+    faq_3_answer: 'बहुतेक विमा योजना वैद्यकीयदृष्ट्या सूचित केल्यावर अनुवांशिक समुपदेशन कव्हर करतात. भेटीपूर्वी तुमच्या विमा प्रदात्याशी संपर्क करण्याची शिफारस करतो.',
+    faq_4_question: 'अनुवांशिक समुपदेशन गोपनीय आहे का?',
+    faq_4_answer: 'हो, सर्व अनुवांशिक समुपदेशन सत्रे पूर्णपणे गोपनीय असतात आणि HIPAA गोपनीयता कायद्यांतर्गत संरक्षित असतात.',
     footer_platform: 'प्लॅटफॉर्म',
     footer_services: 'सेवा',
     footer_company: 'कंपनी',
     footer_legal: 'कायदेशीर',
-    footer_tagline: 'सुलभ शिक्षण, प्रगत AI मूल्यांकन आणि वैयक्तिक अंतर्दृष्टीद्वारे अनुवांशिक जागरूकता सशक्त करणे।',
-    footer_copyright: '© 2026 GeneGuard. सर्व हक्क राखीव।',
+    footer_learn_genetics: 'अनुवंशशास्त्र शिका',
+    footer_genetic_disorders: 'अनुवांशिक विकार',
+    footer_genetic_counseling: 'अनुवांशिक समुपदेशन',
+    footer_ai_assessment: 'AI मूल्यमापन',
+    footer_dna_testing: 'DNA चाचणी',
+    footer_reports_insights: 'अहवाल आणि अंतर्दृष्टी',
+    footer_consultations: 'सल्लामसलत',
+    footer_research: 'संशोधन',
+    footer_about_us: 'आमच्याबद्दल',
+    footer_our_team: 'आमची टीम',
+    footer_careers: 'करिअर',
+    footer_contact: 'संपर्क',
+    footer_privacy_policy: 'गोपनीयता धोरण',
+    footer_terms_of_service: 'सेवेच्या अटी',
+    footer_hipaa_compliance: 'HIPAA अनुपालन',
+    footer_cookie_policy: 'कुकी धोरण',
+    footer_tagline: 'सुलभ शिक्षण, प्रगत AI मूल्यमापन आणि वैयक्तिक अंतर्दृष्टीद्वारे अनुवांशिक जागरूकता सशक्त करणे.',
+    footer_copyright: '© 2026 GeneGuard. सर्व हक्क राखीव.',
   },
+
+  // ── తెలుగు (Telugu) ──────────────────────────────────────────────────────────
   tel: {
+    nav_counselling: 'కౌన్సెలింగ్',
+    hero_title: 'అర్థం చేసుకోవడానికి మీ ప్రయాణం',
+    hero_title_accent: 'జన్యు ఆరోగ్యం',
+    hero_description: 'నిపుణుల మార్గదర్శకత్వం, సానుభూతిపూర్వక సంరక్షణ మరియు మీ జన్యు ఆరోగ్య ప్రశ్నలకు స్పష్టమైన సమాధానాలు. మేము మీ ప్రతి అడుగులో మీకు మద్దతు ఇవ్వడానికి ఇక్కడ ఉన్నాము.',
+    btn_book_session: 'సెషన్ బుక్ చేయండి',
+    btn_learn_more: 'మరింత తెలుసుకోండి',
+    section_when_counseling: 'మీరు జన్యు కౌన్సెలింగ్‌ను ఎప్పుడు పరిగణించాలి?',
+    section_when_subtitle: 'జన్యు కౌన్సెలింగ్ ఎప్పుడు తీసుకోవాలో అర్థం చేసుకోవడం మీ ఆరోగ్యంపై సమాచారంతో నిర్ణయాలు తీసుకోవడంలో సహాయపడుతుంది',
+    scenario_family_history: 'కుటుంబ చరిత్ర',
+    scenario_family_question: 'మీ కుటుంబంలో జన్యు పరిస్థితులు ఉన్నాయా?',
+    scenario_family_description: 'మీ బంధువులకు క్యాన్సర్, హృదయ వ్యాధి లేదా అరుదైన జన్యు రుగ్మతలు వంటి వంశపారంపర్య పరిస్థితులు ఉంటే, కౌన్సెలింగ్ మీ ప్రమాదాన్ని అంచనా వేయడంలో సహాయపడుతుంది.',
+    scenario_family_learn: 'జన్యు కౌన్సెలర్లు సంభావ్య వంశపారంపర్య పరిస్థితులను గుర్తించడానికి కుటుంబ నమూనాలను విశ్లేషిస్తారు మరియు తగిన పరీక్షలను సిఫారసు చేస్తారు.',
+    scenario_pregnancy: 'గర్భధారణ ప్రణాళిక',
+    scenario_pregnancy_question: 'మీరు గర్భధారణను ప్లాన్ చేస్తున్నారా లేదా ప్రస్తుతం గర్భవతిగా ఉన్నారా?',
+    scenario_pregnancy_description: 'జన్యు కౌన్సెలింగ్ మీ బిడ్డకు పరిస్థితులు అందించే ప్రమాదాలను అర్థం చేసుకోవడంలో మరియు జన్మపూర్వ పరీక్ష నిర్ణయాలను మార్గనిర్దేశం చేయడంలో సహాయపడుతుంది.',
+    scenario_pregnancy_learn: 'కౌన్సెలర్లు క్యారియర్ స్క్రీనింగ్, జన్మపూర్వ నిర్ధారణ ఎంపికలు చర్చిస్తారు మరియు గర్భధారణ సమయంలో పరీక్ష ఫలితాలను అర్థం చేసుకోవడంలో సహాయపడతారు.',
+    scenario_personal: 'వ్యక్తిగత నిర్ధారణ',
+    scenario_personal_question: 'మీకు జన్యు పరిస్థితి నిర్ధారించబడిందా?',
+    scenario_personal_description: 'మీ నిర్ధారణ, చికిత్స ఎంపికలు మరియు కుటుంబ సభ్యులకు చిక్కులను అర్థం చేసుకోవడం చాలా ముఖ్యం.',
+    scenario_personal_learn: 'జన్యు కౌన్సెలర్లు మీ పరిస్థితిని వివరిస్తారు, అందుబాటులో ఉన్న చికిత్సలు చెప్పి బంధువులకు జన్యు పరీక్షలను సమన్వయం చేయడంలో సహాయపడతారు.',
+    scenario_symptoms: 'వివరించలేని లక్షణాలు',
+    scenario_symptoms_question: 'మీకు వివరించలేని వైద్య లక్షణాలు ఉన్నాయా?',
+    scenario_symptoms_description: 'స్పష్టమైన కారణం లేకుండా నిరంతరం కొనసాగే లక్షణాలకు జన్యు ఆధారం ఉండవచ్చు, దీన్ని కౌన్సెలింగ్ గుర్తించడంలో సహాయపడుతుంది.',
+    scenario_symptoms_learn: 'కౌన్సెలర్లు వైద్య చరిత్రను సమీక్షించి సంక్లిష్టమైన లేదా అసాధారణ లక్షణాలను వివరించగల జన్యు పరీక్షలను సిఫారసు చేస్తారు.',
+    btn_book_consultation: 'సంప్రదింపు బుక్ చేయండి',
+    section_booking_title: 'మీ వర్చువల్ కౌన్సెలింగ్ సెషన్ బుక్ చేయండి',
+    section_booking_subtitle: 'మీ ఇంటి సౌకర్యం నుండి నిపుణుల జన్యు కౌన్సెలర్లతో కనెక్ట్ అవ్వండి',
+    step_concern: 'ఆందోళన',
+    step_counselor: 'కౌన్సెలర్',
+    step_schedule: 'షెడ్యూల్',
+    step_confirm: 'నిర్ధారించండి',
+    booking_step1_title: 'జన్యు కౌన్సెలింగ్‌కు మీరు ఎందుకు వచ్చారు?',
+    booking_step1_subtitle: 'మీ పరిస్థితిని బాగా వర్ణించే ఆందోళనను ఎంచుకోండి',
+    concern_family_history: 'కుటుంబ చరిత్ర ఆందోళనలు',
+    concern_pregnancy: 'గర్భధారణ ప్రణాళిక',
+    concern_diagnosis: 'ఇప్పటికే ఉన్న నిర్ధారణ',
+    concern_symptoms: 'వివరించలేని లక్షణాలు',
+    concern_cancer_risk: 'క్యాన్సర్ ప్రమాద అంచనా',
+    concern_other: 'ఇతర',
+    booking_step2_title: 'మీ కౌన్సెలర్‌ను ఎంచుకోండి',
+    booking_step2_subtitle: 'వారి నైపుణ్యం మరియు అందుబాటు ఆధారంగా కౌన్సెలర్‌ను ఎంచుకోండి',
+    counselor_1_name: 'డా. సారా మిచెల్',
+    counselor_1_specialty: 'క్యాన్సర్ జెనెటిక్స్ & వంశపారంపర్య సిండ్రోమ్‌లు',
+    counselor_2_name: 'డా. జేమ్స్ చెన్',
+    counselor_2_specialty: 'జన్మపూర్వ & శిశువైద్య జెనెటిక్స్',
+    counselor_3_name: 'డా. ఎమిలీ రోడ్రిగెజ్',
+    counselor_3_specialty: 'హృదయనాళ & జీవక్రియ జెనెటిక్స్',
+    booking_step3_title: 'తేదీ & సమయం ఎంచుకోండి',
+    booking_step3_subtitle: 'మీ కౌన్సెలింగ్ సెషన్‌కు సౌకర్యవంతమైన సమయాన్ని ఎంచుకోండి',
+    label_select_date: 'తేదీ ఎంచుకోండి',
+    label_select_time: 'సమయం ఎంచుకోండి',
+    booking_step4_title: 'మీ అపాయింట్‌మెంట్ సమీక్షించండి',
+    summary_concern: 'ఆందోళన',
+    summary_counselor: 'కౌన్సెలర్',
+    summary_date: 'తేదీ',
+    summary_time: 'సమయం',
+    btn_confirm: 'అపాయింట్‌మెంట్ నిర్ధారించండి',
+    confirmation_note: 'మీకు మీటింగ్ వివరాలు మరియు తయారీ మార్గదర్శకాలతో నిర్ధారణ ఇమెయిల్ వస్తుంది',
+    btn_back: 'వెనుకకు',
+    btn_continue: 'కొనసాగించండి',
+    prep_title: 'మీ సెషన్‌కు ఎలా సిద్ధం కావాలి',
+    prep_1: 'మీ వైద్య చరిత్ర మరియు రికార్డులు సేకరించండి',
+    prep_2: 'కుటుంబ ఆరోగ్య చరిత్రను నమోదు చేయండి (కనీసం 3 తరాలు)',
+    prep_3: 'ప్రస్తుత మందులు మరియు సప్లిమెంట్ల జాబితా తయారు చేయండి',
+    prep_4: 'మీరు అడగాలనుకున్న ప్రశ్నలు సిద్ధం చేయండి',
+    prep_5: 'వర్చువల్ సెషన్‌కు స్థిరమైన ఇంటర్నెట్ కనెక్షన్ నిర్ధారించుకోండి',
+    faq_title: 'తరచుగా అడిగే ప్రశ్నలు',
+    faq_1_question: 'నా జన్యు కౌన్సెలింగ్ అపాయింట్‌మెంట్‌కు నేను ఏమి తీసుకురావాలి?',
+    faq_1_answer: 'మీ వైద్య రికార్డులు, కుటుంబ ఆరోగ్య చరిత్ర (వయసులు మరియు పరిస్థితులతో సహా), మునుపటి జన్యు పరీక్ష ఫలితాలు మరియు మందుల జాబితా తీసుకురండి.',
+    faq_2_question: 'జన్యు కౌన్సెలింగ్ సెషన్ ఎంత సేపు పడుతుంది?',
+    faq_2_answer: 'ప్రారంభ సెషన్‌లు సాధారణంగా 60-90 నిమిషాలు ఉంటాయి. ఫాలో-అప్ అపాయింట్‌మెంట్‌లు సాధారణంగా 30-45 నిమిషాలు ఉంటాయి.',
+    faq_3_question: 'నా బీమా జన్యు కౌన్సెలింగ్‌ను కవర్ చేస్తుందా?',
+    faq_3_answer: 'చాలా బీమా ప్రణాళికలు వైద్యపరంగా సూచించబడినప్పుడు జన్యు కౌన్సెలింగ్‌ను కవర్ చేస్తాయి. మీ కవరేజ్ అర్థం చేసుకోవడానికి అపాయింట్‌మెంట్ ముందు మీ బీమా ప్రదాతను సంప్రదించమని సిఫారసు చేస్తున్నాము.',
+    faq_4_question: 'జన్యు కౌన్సెలింగ్ గోప్యంగా ఉంటుందా?',
+    faq_4_answer: 'అవును, అన్ని జన్యు కౌన్సెలింగ్ సెషన్‌లు పూర్తిగా గోప్యంగా ఉంటాయి మరియు HIPAA గోప్యతా చట్టాల ద్వారా రక్షించబడతాయి.',
     footer_platform: 'ప్లాట్‌ఫారమ్',
     footer_services: 'సేవలు',
     footer_company: 'కంపెనీ',
     footer_legal: 'చట్టపరమైన',
-    footer_tagline: 'అందుబాటులో ఉన్న విద్య, అధునాతన AI మూల్యాంకనం మరియు వ్యక్తిగత అంతర్దృష్టుల ద్వారా జన్యు అవగాహనను శక్తివంతం చేయడం।',
+    footer_learn_genetics: 'జెనెటిక్స్ నేర్చుకోండి',
+    footer_genetic_disorders: 'జన్యు వ్యాధులు',
+    footer_genetic_counseling: 'జన్యు కౌన్సెలింగ్',
+    footer_ai_assessment: 'AI మూల్యాంకనం',
+    footer_dna_testing: 'DNA పరీక్ష',
+    footer_reports_insights: 'నివేదికలు & అంతర్దృష్టి',
+    footer_consultations: 'సంప్రదింపులు',
+    footer_research: 'పరిశోధన',
+    footer_about_us: 'మా గురించి',
+    footer_our_team: 'మా బృందం',
+    footer_careers: 'కెరీర్లు',
+    footer_contact: 'సంప్రదించండి',
+    footer_privacy_policy: 'గోప్యతా విధానం',
+    footer_terms_of_service: 'సేవా నిబంధనలు',
+    footer_hipaa_compliance: 'HIPAA అనుసరణ',
+    footer_cookie_policy: 'కుకీ విధానం',
+    footer_tagline: 'అందుబాటులో ఉన్న విద్య, అధునాతన AI మూల్యాంకనం మరియు వ్యక్తిగతీకరించిన అంతర్దృష్టుల ద్వారా జన్యు అవగాహనను శక్తివంతం చేయడం.',
     footer_copyright: '© 2026 GeneGuard. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.',
   }
 };
@@ -339,13 +542,15 @@ export default function Counselling() {
 
   return (
     <div className="counselling-page-wrapper">
-      {/* Navbar */}
-      <nav className={`dna-main-navbar ${isScrolled ? 'dna-navbar-scrolled' : ''}`}>
-        <div className="dna-nav-content">
-          <div className="dna-nav-logo">
-            <div className="dna-logo-circle"></div>
-            <span className="dna-logo-brand">Gene Guard</span>
-          </div>
+    {/* ─── Navbar ─────────────────────────────────────────────────────── */}
+         <nav className={`dna-main-navbar ${isScrolled ? 'dna-navbar-scrolled' : ''}`}>
+           <div className="dna-nav-content">
+   
+             {/* Logo links to home page */}
+             <Link to="/home" className="dna-nav-logo" style={{ textDecoration: 'none' }}>
+               <div className="dna-logo-circle"></div>
+               <span className="dna-logo-brand">Gene Guard</span>
+             </Link>
           
           <div className="dna-nav-right-section">
             <div className="dna-nav-links">
@@ -362,27 +567,19 @@ export default function Counselling() {
               <button 
                 className={`dna-lang-btn ${language === 'eng' ? 'active' : ''}`}
                 onClick={() => setLanguage('eng')}
-              >
-                EN
-              </button>
+              >EN</button>
               <button 
                 className={`dna-lang-btn ${language === 'hin' ? 'active' : ''}`}
                 onClick={() => setLanguage('hin')}
-              >
-                हिं
-              </button>
+              >हिं</button>
               <button 
                 className={`dna-lang-btn ${language === 'mar' ? 'active' : ''}`}
                 onClick={() => setLanguage('mar')}
-              >
-                मर
-              </button>
+              >मर</button>
               <button 
                 className={`dna-lang-btn ${language === 'tel' ? 'active' : ''}`}
                 onClick={() => setLanguage('tel')}
-              >
-                తె
-              </button>
+              >తె</button>
             </div>
 
             <button 
@@ -409,12 +606,8 @@ export default function Counselling() {
               {isProfileOpen && (
                 <div className="dna-profile-dropdown">
                   <div className="dna-dropdown-glow"></div>
-                  <Link to="/login" className="dna-dropdown-item dna-signup-special">
-                    Login
-                  </Link>
-                  <Link to="/signup" className="dna-dropdown-item dna-signup-special">
-                    Sign Up
-                  </Link>
+                  <Link to="/login" className="dna-dropdown-item dna-signup-special">Login</Link>
+                  <Link to="/signup" className="dna-dropdown-item dna-signup-special">Sign Up</Link>
                 </div>
               )}
             </div>
@@ -688,16 +881,15 @@ export default function Counselling() {
 
         {/* Footer Section */}
         <footer className="main-footer">
-          
-          
           <div className="footer-container">
             <div className="footer-top">
               {/* Brand Section */}
               <div className="footer-brand-section">
-                <div className="footer-logo">
+                {/* Logo links to home */}
+                <Link to="/" className="footer-logo" style={{ textDecoration: 'none' }}>
                   <div className="footer-logo-circle"></div>
                   <span className="footer-logo-text">GeneGuard</span>
-                </div>
+                </Link>
                 <p className="footer-tagline">{t('footer_tagline')}</p>
                 <div className="footer-social">
                   <a href="#" className="social-link" aria-label="Twitter">
@@ -720,7 +912,6 @@ export default function Counselling() {
 
               {/* Links Grid */}
               <div className="footer-links-grid">
-                {/* Platform */}
                 <div className="footer-column">
                   <h4 className="footer-column-title">{t('footer_platform')}</h4>
                   <ul className="footer-links">
@@ -730,8 +921,6 @@ export default function Counselling() {
                     <li><Link to="/genetic-assessment">{t('footer_ai_assessment')}</Link></li>
                   </ul>
                 </div>
-
-                {/* Services */}
                 <div className="footer-column">
                   <h4 className="footer-column-title">{t('footer_services')}</h4>
                   <ul className="footer-links">
@@ -741,8 +930,6 @@ export default function Counselling() {
                     <li><a href="#research">{t('footer_research')}</a></li>
                   </ul>
                 </div>
-
-                {/* Company */}
                 <div className="footer-column">
                   <h4 className="footer-column-title">{t('footer_company')}</h4>
                   <ul className="footer-links">
@@ -752,8 +939,6 @@ export default function Counselling() {
                     <li><a href="#contact">{t('footer_contact')}</a></li>
                   </ul>
                 </div>
-
-                {/* Legal */}
                 <div className="footer-column">
                   <h4 className="footer-column-title">{t('footer_legal')}</h4>
                   <ul className="footer-links">
