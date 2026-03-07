@@ -4,13 +4,15 @@ import DNA from "./Components/DNA";
 import About from "./Components/About";
 import Home from "./Components/Home"; 
 import Counselling from "./Components/Counselling";
-
-
+import Login from "./Components/Login";
+import Register from "./Register";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/learn-genetics" element={<LearnGenetics />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/dna" element={<DNA />} />
         <Route path="/home" element={<Home />}/>
         <Route path="/about" element={<About />} />
